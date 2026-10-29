@@ -1,0 +1,46 @@
+[
+  {
+    "titulo": "Lomo Saltado.JPG",
+    "autor": "HugoMon",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Lomo_Saltado.JPG",
+    "original": "3056x2292",
+    "archivos": [
+      "assets/banner/lomo-saltado-1000.webp",
+      "assets/banner/lomo-saltado-2000.webp"
+    ]
+  },
+  {
+    "titulo": "Aji de gallina 10.jpg",
+    "autor": "ta@keshi kimi",
+    "licencia": "CC BY 2.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Aji_de_gallina_10.jpg",
+    "original": "3872x2592",
+    "archivos": [
+      "assets/banner/aji-de-gallina-1000.webp",
+      "assets/banner/aji-de-gallina-2000.webp"
+    ]
+  },
+  {
+    "titulo": "Arroz con pollo y papa a la huancaina.JPG",
+    "autor": "Dtarazona",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Arroz_con_pollo_y_papa_a_la_huancaina.JPG",
+    "original": "3072x2304",
+    "archivos": [
+      "assets/banner/arroz-con-pollo-1000.webp",
+      "assets/banner/arroz-con-pollo-2000.webp"
+    ]
+  },
+  {
+    "titulo": "Arroz tapado.jpg",
+    "autor": "MiguelAlanCS",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Arroz_tapado.jpg",
+    "original": "3664x2748",
+    "archivos": [
+      "assets/banner/arroz-tapado-1000.webp",
+      "assets/banner/arroz-tapado-2000.webp"
+    ]
+  }
+]

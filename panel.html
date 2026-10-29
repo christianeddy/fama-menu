@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fama · Pantalla del restaurante</title>
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-panel">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Fama, ver la web">
+        <span class="brand-sign">Fama</span>
+      </a>
+      <a class="header-link" href="index.html" target="_blank" rel="noopener">Ver la web</a>
+    </div>
+  </header>
+
+  <main class="wrap panel">
+    <section class="panel-intro">
+      <h1>Menú de hoy</h1>
+      <p class="panel-sub">Pantalla del restaurante</p>
+      <p class="panel-note">Muestra: los cambios se guardan solo en este aparato.</p>
+    </section>
+
+    <section class="panel-block" data-tipo="entradas" aria-labelledby="t-entradas">
+      <div class="panel-block-head">
+        <h2 id="t-entradas">Entradas</h2>
+        <p class="panel-count" data-count></p>
+      </div>
+      <p class="panel-hint">Toca un nombre para cambiarlo.</p>
+      <ul class="dish-list" data-list></ul>
+      <form class="add-row" data-add>
+        <label class="sr-only" for="add-entradas">Nueva entrada</label>
+        <input id="add-entradas" placeholder="Nueva entrada" autocomplete="off" />
+        <button class="btn btn-accent" type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section class="panel-block" data-tipo="fondos" aria-labelledby="t-fondos">
+      <div class="panel-block-head">
+        <h2 id="t-fondos">Fondos</h2>
+        <p class="panel-count" data-count></p>
+      </div>
+      <p class="panel-hint">Toca un nombre para cambiarlo.</p>
+      <ul class="dish-list" data-list></ul>
+      <form class="add-row" data-add>
+        <label class="sr-only" for="add-fondos">Nuevo fondo</label>
+        <input id="add-fondos" placeholder="Nuevo fondo" autocomplete="off" />
+        <button class="btn btn-accent" type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section class="panel-block" aria-labelledby="t-whatsapp">
+      <h2 id="t-whatsapp">WhatsApp que recibe los pedidos</h2>
+      <form class="add-row" id="whatsapp-form" novalidate>
+        <label class="sr-only" for="whatsapp">Número de WhatsApp</label>
+        <input id="whatsapp" inputmode="tel" autocomplete="tel" />
+        <button class="btn btn-accent" type="submit">Guardar</button>
+      </form>
+      <p class="panel-msg" id="whatsapp-msg" hidden></p>
+    </section>
+
+    <section class="panel-reset">
+      <button class="btn btn-quiet" id="reset" type="button">Volver al menú de ejemplo</button>
+    </section>
+  </main>
+
+  <p class="toast" id="toast" role="status" aria-live="polite"></p>
+
+  <script src="js/menu-store.js"></script>
+  <script src="js/panel.js"></script>
+</body>
+</html>
